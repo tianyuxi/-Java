@@ -1,2 +1,6 @@
-# -Java
-初学Java
+UDP说明:
+1、没有明确的服务器和客户端,演变成数据的发送端和接收端
+2、接收数据和发送数据时通过DatagramSocket对象完成
+3、将数据封装到DatagramPacket对象/装包
+4、当接收到DatagramPacket对象,需要进行拆包,取出数据
+5、DatagramPacket可以指定在哪个端口接收数据
