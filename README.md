@@ -3,4 +3,4 @@ UDP说明:
 2、接收数据和发送数据时通过DatagramSocket对象完成
 3、将数据封装到DatagramPacket对象/装包
 4、当接收到DatagramPacket对象,需要进行拆包,取出数据
-5、DatagramPacket可以指定在哪个端口接收数据
+5、DatagramSocket可以指定在哪个端口接收数据
